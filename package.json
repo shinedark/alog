@@ -1,0 +1,33 @@
+{
+  "name": "alog",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "latest",
+    "bson": "latest",
+    "connect-flash": "latest",
+    "cookie-parser": "~latest",
+    "ejs": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "method-override": "latest",
+    "mocha": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "node-cron": "latest",
+    "nodemailer": "latest",
+    "nodemailer-openpgp": "latest",
+    "nodemon": "^latest",
+    "passport": "latest",
+    "passport-google-oauth": "latest",
+    "passport-local": "latest",
+    "validator": "latest"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0"
+  }
+}
