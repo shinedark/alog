@@ -1,0 +1,306 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Lato'}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+#overlay{
+	display: none;
+}
+
+#overlays{
+	display: none;
+}
+
+
+header {
+    background-color: rgb(107, 209, 255);
+    
+    padding: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
+
+nav {
+	position: relative;
+	height: 3%;
+
+}
+
+nav ul li {
+	text-transform: uppercase;
+	font-weight: 1000;
+	font-size: 1.2em;
+}
+
+
+ul li {	
+	display: inline;
+}
+
+nav ul li:first-child {
+	float: left;
+}
+
+nav ul li:last-child {
+	float: right;
+}
+
+h1 {
+    font-size: 5em;
+    padding: 20px;
+    color: rgb(99, 89, 89);
+}
+
+p {
+    color: #332424;
+    padding: 40px;
+}
+
+
+
+.container{
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto
+	
+}
+
+a.btn.btn-default {
+    padding: 10px;
+    border: black;
+    border-style: solid;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+h2.text-center {
+    color: #3a2f2f;
+    padding: 30px;
+    font-weight: 900;
+}
+
+
+.logs{
+	text-align: right;
+	padding: 3px;
+	text-decoration: underline;
+
+}
+
+form.logs {
+    text-align: center;
+    display: inline-table;
+    padding: 20px;
+    margin: 8px;
+}
+
+.form-group {
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.form-group2 {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+
+td {
+    padding: 20px;
+}
+
+table#user {
+    display: block;
+    padding-bottom: 30px;
+}
+
+
+
+button.btn.btn-warning.btn-lg {
+    padding: 12px;
+    margin: 9px;
+    background-color: #eaeaea;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+p#pa {
+    text-align: center;
+    padding: 30px;
+    margin: 9px;
+    font-weight: bold;
+}
+
+input.form-control {
+    padding: 9px;
+}
+
+label {
+    padding: 4px;
+    font-size: 23px;
+}
+
+
+a#pa {
+    color: black;
+    text-decoration: underline;
+    float: right;
+}
+
+
+h1.pol {
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+#profile {
+	color: grey;
+	font-weight: 900;
+
+}
+#profile:hover{
+	background-size: contain;
+    color: darkslategrey;
+}
+
+#profile2 {
+	color: white;
+	font-weight: 900;
+
+}
+#profile2:hover{
+	background-size: contain;
+    color: darkslategrey;
+}
+
+#profile3 {
+	color: grey;
+	font-weight: 900;
+
+}
+#profile3:hover{
+	background-size: contain;
+    color: darkslategrey;
+}
+
+#page-headerO {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: transparent;
+    color: white;
+}
+
+#logh{
+	color: grey;
+}
+
+#hello {
+    color: black;
+    text-decoration: overline;
+    text-align: center;
+    font-size: 50px;
+}
+
+#hellos{
+	color: grey;
+}
+
+#par {
+	color: ghostwhite;
+	padding: 10px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#holla{
+	float: right;
+	text-decoration: underline;
+}
+
+#logc {
+	font-size: 1.2em;
+}
+#search-results a {
+	color: grey;
+	text-decoration: underline;
+	padding-left: 9px;
+    padding-right: 9px;
+}
+#search-results p {
+
+	color: grey;
+}
+#search-results  {
+
+	color: grey;
+}
+
+.search-result {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	.search-result{
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+
+.bttn {
+	text-align: center;
+	border-radius: 9px;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+#labels{
+	color: grey;
+}
+
+#medsqY {
+	display: -webkit-inline-box;
+    margin: 3px 3px 3px;
+    line-height: normal;
+}
+
+#medsqN {
+	display: -webkit-inline-box;
+    margin: 3px 3px 3px;
+    line-height: normal;
+}
+
+#pa {
+	color: grey;
+}
+
+label#logH {
+    display: block;
+    margin: 20px;
+    font-size: 36px;
+}
+
+
